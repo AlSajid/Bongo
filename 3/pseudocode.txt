@@ -1,0 +1,35 @@
+Modular Design Pattern
+________________________________
+
+pseudo code:--------------
+
+interface-
+
+    Video Player
+
+    controls
+        Play
+        Pause
+        Rewind
+        Forward
+
+    import functionalities
+
+--------
+functionalities-
+
+    Play
+        play video
+        disable play button
+        enable pause button
+
+    pause
+        pause video
+        enable play button
+        disable pause button
+
+    forward
+        change video time +5 seconds
+
+    rewind
+        change video time - seconds
